@@ -157,11 +157,11 @@ public class parseStorageNodes {
                 storageNode sNode = new storageNode(mapIndex-1,Double.parseDouble(objects[1]),Double.parseDouble(objects[2]),Integer.parseInt(objects[3]),Integer.parseInt(objects[4]),Integer.parseInt(objects[5]));
                 nodesVector.add(sNode);
             }
-
+            /*
             System.out.println("Displaying HashMap:");
             for(Map.Entry m: map.entrySet()){
                 System.out.println(m.getKey() +" "+m.getValue());
-            }
+            }*/
 
             //write the HashMap to a csv file
             csvWrite(map);
